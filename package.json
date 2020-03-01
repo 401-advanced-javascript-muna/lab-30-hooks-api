@@ -9,7 +9,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint '**/*.js'"
-
   },
   "repository": {
     "type": "git",
@@ -21,11 +20,23 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-muna/lab-31-hooks-api/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-muna/lab-31-hooks-api#readme",
+  "homepage": "https://github.com/401-advanced-javascript-muna/lab-31-hooks-api",
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-hookstore": "^1.4.3",
     "react-scripts": "^3.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
